@@ -1,0 +1,103 @@
+body{
+    background-color: #00002a;
+    
+}
+.nav{
+    position: sticky;
+    display: inline;
+    
+
+}
+ul{
+    display: inline;
+    position: sticky;
+    
+    
+}
+ul li {
+    color: aliceblue;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+
+    
+}
+ul li a{
+    color: aliceblue;
+    list-style: none;
+    float: right;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+
+    
+}
+ul li :hover{ 
+    color: yellow;
+}
+.hi{
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.hi p{
+    font-size: small;
+}
+button{
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #00002a;
+    color: yellow;
+}
+.myimg{
+    position: absolute;
+    display: inline;
+    top: 10%;
+    left: 60%;
+    filter: drop-shadow(20px 10px 24px hsl(0, 100%, 100%));
+
+}
+.skills{
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    transform: translate(-50% -50%);
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    padding-bottom: 5px;
+}
+.inst{
+    color: aliceblue;
+    display: inline;
+    position: absolute;
+    top: 150%; 
+    left: 43%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.logo{
+    display: inline;
+    position: absolute;
+    top:82%;
+    left:24%;
+    letter-spacing: 20px;
+    font-size: larger;
+    text-decoration: none;
+}
+i :hover{
+    cursor: pointer;
+}

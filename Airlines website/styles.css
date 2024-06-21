@@ -1,0 +1,100 @@
+body{
+    background-color: cornsilk;
+}
+nav{
+    background-color: darkgrey;
+}
+nav ul{
+    display: inline;
+    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+    
+}
+ nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px; padding: 10px;
+    
+ }
+ nav ul li:hover{ color: red;
+    cursor: pointer;
+}
+h1{ display: inline;
+    margin: 8px;
+    position: absolute;}
+
+button{
+    position: absolute;
+    margin-top: 12px;
+    left: 90%;
+    background-color: lightskyblue;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+button:hover{ color: aliceblue; cursor: pointer;}
+.p{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    transform: translate( -40% -50%);
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+img{ width: 100vw; height: 100vh;}
+body { margin: 0; padding: 0;}
+.book{
+    display: flex;
+    justify-content: space-between;
+}
+.e{
+    display: inline;
+    position: absolute;
+    left: 45%;
+    margin: 23;
+    justify-content: space-between;
+}
+.select{
+    position: absolute;
+    top: 130%;
+    left: 15%;
+    transform: translate( -50% -50%);
+    text-align: center;
+}
+::placeholder {
+    color: blue; /* Change this to the desired color */
+}
+input[type="text"] {
+    border: none; /* Remove default border */
+    border-bottom: 2px solid black; /* Add bottom border */
+    outline: none; /* Remove outline on focus */
+    margin-right: 50px;
+    padding: 5px;
+}
+input[type="datetime-local"] {
+    border: none; /* Remove default border */
+    border-bottom: 2px solid black; /* Add bottom border */
+    outline: none; /* Remove outline on focus */
+    margin-right: 50px;
+    padding: 5px;
+}
+input[type="number"] {
+    border: none; /* Remove default border */
+    border-bottom: 2px solid black; /* Add bottom border */
+    outline: none; /* Remove outline on focus */
+    margin-right: 50px;
+    padding: 5px;
+}
+.bt{
+    
+    position: absolute;
+    top: 140%;
+    left: 48%;
+}
+.bg{
+    background-color: silver;
+}
+

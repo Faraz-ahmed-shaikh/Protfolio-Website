@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        body {
+            background-color: #00002a;
+        }
+
+        .contact {
+            position: absolute;
+            left: 50%;
+            top: 20%;
+
+        }
+
+        .contact h2 {
+            color: red;
+            text-align: center;
+            margin-right: 15px;
+        }
+
+        .contact h1 {
+            color: yellow;
+            text-align: center;
+            font-family: 'Lucida Sans';
+        }
+
+        .contact h3 {
+            color: aliceblue;
+            text-align: center;
+        }
+
+        button {
+            background-color: transparent;
+            color: aliceblue;
+            border: 1px solid white;
+            padding: 8px;
+            margin: 8px;
+            position: absolute;
+            top: 300px;
+            left: 40%;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00002a;
+            color: yellow;
+
+        }
+
+        .details {
+            color: aliceblue;
+            position: absolute;
+            top: 20%;
+            left: 8%;
+        }
+
+        .details input {
+            background-color: transparent;
+            border: 1px solid gray;
+            text-align: center;
+            width: 200%;
+            padding: 6px;
+            color: rgb(253, 254, 255);
+            margin-bottom: 15%;
+        }
+
+        .details input::placeholder {
+            color: #f5f5f5;
+        }
+        #su{
+            position: absolute;
+            top: 110%;
+            left: 80%;
+            border-radius: 35%;
+            background-color: red;
+            border: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact">
+        <h2>"Empower your tech evolution. Reach us today to explore how we can enhance your role and drive collective
+            success."</h2>
+        <h1>CONTACT US !!!</h1>
+        <h3>"Embark on a transformative journey for your company's tech ecosystem. Reach out to us today to explore
+            tailored solutions that optimize operations, enhance productivity, and foster innovation across your
+            organization. Let's work together to build a future-ready foundation for sustained success in the digital
+            era."</h3>
+        <a href="index.html"><button>Back to Home</button></a>
+    </div>
+    <div class="details">
+        <input type="text" name="Name" placeholder="Enter Your Name"> <br>
+        <input type="text" name="company" placeholder="Enter Your Companies Name"> <br>
+        <input type="number" placeholder="Enter Your Mobile Number"> <br>
+        <input type="email" name="Email" placeholder="Enter Your Email">
+        <button id="su">Submit</button>
+    </div>
+</body>
+
+</html>
